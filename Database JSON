@@ -1,14 +1,12 @@
-function biodata (){
-return
-{
-"name": "Muhammad Alwin Alasmyah Handoko Putra",
-"age": 24,
-"address": "Jalan Sunan Bayat Blok O8 No. 24, Bekasi",
-"hobbies": ["Music","Desain","Fotografi"],
-"is_married": FALSE,
+biodata={
+name: "Muhammad Alwin Alasmyah Handoko Putra",
+age: 24,
+address: "Jalan Sunan Bayat Blok O8 No. 24, Bekasi",
+hobbies: ["Music","Desain","Fotografi"],
+is_married: 'FALSE',
 list_school: [{
-    "name": "Universitas Brawijaya",
-    "year_in": 2013,
+    "name" : "Universitas Brawijaya",
+    "year_in" : 2013,
     "years_out": 2018,
     "major": "Teknik Elektro"
 },
@@ -30,7 +28,7 @@ list_school: [{
     "years_out": 2007,
     "major": " - "
 }],
-"skills":[{
+skills:[{
     "skill_name": "Adobe AE",
     "level": "Advanced"
 },
@@ -51,9 +49,9 @@ list_school: [{
     "level": "Beginner"
 },
 ],
-"interest_in_coding": TRUE
-}
+interest_in_coding: 'TRUE'
 }
 
-let getBiodata=biodata;
-console.log(getBiodata);
+//let getBiodata=biodata;
+
+console.log(biodata.list_school[0].name);
