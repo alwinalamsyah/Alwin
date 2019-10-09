@@ -1,4 +1,4 @@
-# Bootcamp Arkademy Batch 12-4
+
 ---
 Soal 1
 ---
